@@ -1,0 +1,22 @@
+/*
+[문제] CompTest3
+
+int num = 25;  또는 int num = 80;
+
+[실행결과]
+25는 홀수이다     또는 80는 짝수이다
+*/
+
+class CompTest3 {
+	public static void main(String[] args) {
+		int num = 25;
+		boolean result = 25%2=0;
+
+
+		System.out.println(result=True ? "짝수" : "홀수";);
+
+
+		//String result = num%2=0 ? "짝수" : "홀수";
+		//System.out.println(num + "는 " + result + "이다");
+	}
+}

@@ -1,0 +1,22 @@
+/*
+[문제] CompTest2
+
+int a=85, b=100;
+
+[실행결과]
+큰값 = 100 
+*/
+
+class CompTest2 {
+	public static void main(String[] args) {
+		int a=85;
+		int b=100;
+		//조건 ? 참 : 거짓;
+		System.out.println(a>=b ? a : b;)
+
+
+		//int result = a>=b || b>=a ? result : ;
+
+		//System.out.println("큰값 = " + result);
+	}
+}

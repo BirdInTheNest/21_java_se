@@ -1,0 +1,28 @@
+/*
+변수를 이용하여 320, 258의 합,차,곱,몫을 구하시오
+
+[실행결과]
+320 + 258 = 578 (sum)
+320 - 258 = 62 (sub)
+320 * 258 = 82560 (mul)
+320 / 258 = 1.24 (div)
+*/
+
+class CalcTest {
+	public static void main(String[] args) {
+		short a = 320;
+		short b = 258;
+		//short sum = a + b; //자바는 short+short, char+char 등 계산된 결과값을 int로 내보냄
+		
+		int sum = a + b;
+		int sub = a - b;
+		int mul = a * b;
+		//int div = String.format("%.2f",(a / b)); - 오답
+		double div = (double)a / b;
+
+		System.out.println(a + " + " + b + " = " + sum);
+		System.out.println(a + " - " + b + " = " + sub);
+		System.out.println(a + " * " + b + " = " + mul);
+		System.out.println(a + " / " + b + " = " + String.format("%.2f", div));
+	}
+}

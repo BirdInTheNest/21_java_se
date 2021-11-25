@@ -1,0 +1,13 @@
+class Variable2 {
+	int a; //클래스 소속 변수 : 필드, 초기화되어 있음
+	static int b; //필드, 초기화
+
+	public static void main(String[] args) {
+		int a=10; //함수 소속 변수 : 지역변수, Garbage값을 가지고 있음, 따라서 반드시 초기화해야 함. 
+		System.out.println("지역변수 a = " + a);
+
+		Variable2 v = new Variable2(); //생성
+		System.out.println("필드 a = " + v.a);
+		System.out.println("필드 b = " + Variable2.b);
+	}
+}
